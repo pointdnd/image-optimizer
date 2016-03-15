@@ -8,6 +8,8 @@ Thanks to ImageOptimizer and librares that it uses, your image files can be **10
 
 # Basic usage
 
+install: php composer.phar require ps/image-optimizer
+
 ```php
 
     $factory = new \ImageOptimizer\OptimizerFactory();
